@@ -160,6 +160,16 @@
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
 
+	# Specify the mergetool software
+	tool = meld
+
+[mergetool]
+	prompt = false
+
+[mergetool "meld"]
+	trustExitCode = true
+	cmd = open -W -a Meld --args --auto-merge \"$PWD/$LOCAL\" \"$PWD/$BASE\" \"$PWD/$REMOTE\" --output=\"$PWD/$MERGED\"
+
 [push]
 
 	# https://git-scm.com/docs/git-config#git-config-pushdefault
