@@ -93,5 +93,7 @@ brew install tree
 brew install vbindiff
 brew install zopfli
 
+brew cask install sublime-text
+
 # Remove outdated versions from the cellar.
 brew cleanup
