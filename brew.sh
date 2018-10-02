@@ -92,6 +92,7 @@ brew install ssh-copy-id
 brew install tree
 brew install vbindiff
 brew install zopfli
+brew install pt
 
 brew cask install sublime-text
 
